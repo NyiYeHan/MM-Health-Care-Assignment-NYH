@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_medium"
+    android:elevation="@dimen/margin_medium_2">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium_2"
+            android:layout_marginRight="@dimen/margin_medium_2"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/quest"
+            android:textSize="@dimen/text_regular"/>
+
+        <ImageView
+            android:id="@+id/iv_tech"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="@dimen/margin_medium_2"
+            android:src="@drawable/tech_talk1"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:layout_marginLeft="@dimen/margin_medium_2"
+            android:layout_marginRight="@dimen/margin_medium_2"
+            >
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:background="#E2EDFA"
+                android:text="pretty"
+                android:textSize="@dimen/text_small" />
+
+            <TextView
+                android:id="@+id/author_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_small"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:text="@string/author_name" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:src="@drawable/ic_stop_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:text="@string/stop_count"
+                android:textSize="@dimen/text_small"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:src="@drawable/ic_comment_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:text="@string/comment_count"
+                android:textSize="@dimen/text_small"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:src="@drawable/ic_thumb_up_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_small"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:text="@string/like_count" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
